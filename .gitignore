@@ -153,3 +153,4 @@ README.md
 foundry.lock
 foundry.toml
 yarn.lock
+/lib
