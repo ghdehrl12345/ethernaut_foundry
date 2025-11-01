@@ -143,3 +143,13 @@ dist
 .vscode/launch.json
 .vscode/tasks.json
 # .vscode/settings.json, launch.json 등은 팀 공유를 위해 포함할 수도 있으므로, 필요에 따라 조정하세요.
+
+.github/
+
+.gitignore
+.gitmodules
+LICENSE
+README.md
+foundry.lock
+foundry.toml
+yarn.lock
