@@ -32,3 +32,7 @@ contract ElevatorSolution is Script {
         vm.stopBroadcast();
     }
 }
+// forge script script/Elevator.s.sol:ElevatorSolution --broadcast -vvvv --slow
+// cast call 0x392163B00B2Ee5345dB5908D429098fbFD021719 "top()(bool)"
+
+// 이 풀이 방법은 상태변수를 바꿔서 푸는 방법이라 가스가 더 많이 사용됨. 그래서 view()함수 방식으로 읽기만 해서 푸는 방식이 가스를 적게 먹는 방법임 gasleft() 함수를 통해서도 풀이 가능
