@@ -32,4 +32,4 @@ contract ReentrancySolution is Script {
     }
 }
 
-// > forge script script/Re-entrancySolution.s.sol:ReentrancySolution --broadcast --slow -vvvv
+// forge script script/Re-entrancySolution.s.sol:ReentrancySolution --broadcast --slow -vvvv
