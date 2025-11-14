@@ -23,7 +23,7 @@ contract AttackElevator is Building {
 }
 
 contract ElevatorSolution is Script {
-    Elevator elevatorInstance = Elevator(payable(0x392163B00B2Ee5345dB5908D429098fbFD021719));
+    Elevator elevatorInstance = Elevator(payable(0x21dcB1439Db942a4a7bA190A9281341f15FB8Df4));
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));

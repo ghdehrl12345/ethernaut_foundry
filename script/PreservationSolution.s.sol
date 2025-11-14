@@ -15,7 +15,7 @@ contract AttackPreservation {
 }
 
 contract PreservationSolution is Script {
-    Preservation preservationInstance = Preservation(payable(0x0310e8Aa4A5E5eb5747AFf508D2ae230a2ca2B07));
+    Preservation preservationInstance = Preservation(payable(0xf762960b869607F4aAdffbC928486f0A08CE5D56));
 
     function run() public {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
